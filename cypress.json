@@ -13,7 +13,9 @@
   },
   "viewportHeight": 1000,
   "viewportWidth": 1000,
-  "video": true,
+  "video": false,
   "projectId": "bh5j1d",
   "nodeVersion": "system"
 }
+
+

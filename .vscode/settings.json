@@ -1,0 +1,62 @@
+{
+    "git.ignoreLimitWarning": true,
+    "editor.minimap.enabled": true,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
+    "editor.scrollBeyondLastLine": false,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.organizeImports": true
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "workbench.colorCustomizations": {
+      "editorBracketHighlight.foreground1": "#5caeef",
+      "editorBracketHighlight.foreground2": "#dfb976",
+      "editorBracketHighlight.foreground3": "#c172d9",
+      "editorBracketHighlight.foreground4": "#4fb1bc",
+      "editorBracketHighlight.foreground5": "#97c26c",
+      "editorBracketHighlight.foreground6": "#abb2c0",
+      "editorBracketHighlight.unexpectedBracket.foreground": "#db6165"
+    },
+    "gitlens.codeLens.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "problems.autoReveal": false,
+    "window.title": "${dirty} ${appName}",
+    "window.zoomLevel": 0,
+    "breadcrumbs.enabled": true,
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+    "typescript.validate.enable": false,
+    "javascript.validate.enable": false,
+    "files.exclude": {
+      "node_modules/": true
+    },
+    "prettier.trailingComma": "none",
+    "workbench.settings.editor": "json",
+    "diffEditor.maxComputationTime": 0,
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

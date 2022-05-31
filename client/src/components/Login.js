@@ -55,7 +55,7 @@ class Login extends React.Component {
 
               <ListErrors errors={this.props.errors} />
 
-              <form onSubmit={this.submitForm(email, password)}>
+              <form onSubmit={this.submitForm(email, password)} data-cy="login-form">
                 <fieldset>
 
                   <fieldset className="form-group">
@@ -64,6 +64,7 @@ class Login extends React.Component {
                       type="email"
                       placeholder="Email"
                       value={email}
+                      data-cy="email"
                       onChange={this.changeEmail} />
                   </fieldset>
 
@@ -72,6 +73,7 @@ class Login extends React.Component {
                       className="form-control form-control-lg"
                       type="password"
                       placeholder="Password"
+                      data-cy="password"
                       value={password}
                       onChange={this.changePassword} />
                   </fieldset>
@@ -79,6 +81,7 @@ class Login extends React.Component {
                   <button
                     className="btn btn-lg btn-primary pull-xs-right"
                     type="submit"
+                    data-cy="sign-in"
                     disabled={this.props.inProgress}>
                     Sign in
                   </button>
